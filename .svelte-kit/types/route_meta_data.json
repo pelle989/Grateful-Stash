@@ -1,0 +1,13 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/api/stashes": [
+		"src/routes/api/stashes/+server.ts"
+	],
+	"/api/stashes/[id]": [
+		"src/routes/api/stashes/[id]/+server.ts"
+	]
+}
