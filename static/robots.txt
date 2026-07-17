@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shakedownspins.joekirchner.com/sitemap.xml

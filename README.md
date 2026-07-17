@@ -88,6 +88,7 @@ Album notes and fact snippets may reference Wikipedia, TheAudioDB, and Discogs d
 ## Privacy And Security
 
 - Magic-link sign-in is handled through Auth.js and Resend.
+- Signed-in sessions can stay active for about 360 days without reauth, unless the user signs out, clears browser cookies, or the session is removed.
 - Discogs OAuth credentials and personal-token connections are stored server-side for signed-in users.
 - Local browser storage is used only for UI preferences such as selected friend stash compare mode.
 - Secrets and database URLs must be configured through environment variables, not committed to source.

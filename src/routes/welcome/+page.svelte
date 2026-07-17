@@ -4,6 +4,47 @@
     name="description"
     content="Connect Discogs, import a CSV, share stashes with friends, and let Shakedown Spins pick the next record."
   />
+  <link rel="canonical" href="https://shakedownspins.joekirchner.com/welcome" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Shakedown Spins" />
+  <meta property="og:title" content="Shakedown Spins | Record Collection Randomizer" />
+  <meta
+    property="og:description"
+    content="Connect Discogs, import a CSV, share stashes with friends, compare matching albums, and let Shakedown Spins pick the next record."
+  />
+  <meta property="og:url" content="https://shakedownspins.joekirchner.com/welcome" />
+  <meta property="og:image" content="https://shakedownspins.joekirchner.com/landing/app-screen.jpg" />
+  <meta property="og:image:alt" content="Screenshot of the Shakedown Spins record collection randomizer interface" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shakedown Spins | Record Collection Randomizer" />
+  <meta
+    name="twitter:description"
+    content="A record collection randomizer for Discogs collections, CSV stashes, and shared matching albums."
+  />
+  <meta name="twitter:image" content="https://shakedownspins.joekirchner.com/landing/app-screen.jpg" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Shakedown Spins",
+      "applicationCategory": "MusicApplication",
+      "operatingSystem": "Web",
+      "url": "https://shakedownspins.joekirchner.com/welcome",
+      "image": "https://shakedownspins.joekirchner.com/landing/app-screen.jpg",
+      "description": "A record collection randomizer for Discogs collections, CSV stashes, public Street Feed uploads, and shared matching albums.",
+      "creator": {
+        "@type": "Person",
+        "name": "Joe Kirchner",
+        "url": "https://joekirchner.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
 </svelte:head>
 
 <script lang="ts">

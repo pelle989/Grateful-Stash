@@ -2789,15 +2789,29 @@
 
 <svelte:head>
   <title>Shakedown Spins</title>
+  <link rel="canonical" href="https://shakedownspins.joekirchner.com/" />
+  <meta name="robots" content="index, follow" />
   <meta
     name="description"
     content="Load a public stash, roll a random album, and keep the music moving."
   />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Shakedown Spins" />
   <meta property="og:title" content="Shakedown Spins" />
   <meta
     property="og:description"
     content="Load a public stash, roll a random album, and keep the music moving."
   />
+  <meta property="og:url" content="https://shakedownspins.joekirchner.com/" />
+  <meta property="og:image" content="https://shakedownspins.joekirchner.com/landing/app-screen.jpg" />
+  <meta property="og:image:alt" content="Screenshot of the Shakedown Spins randomizer interface" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shakedown Spins" />
+  <meta
+    name="twitter:description"
+    content="Load a stash, roll a random album, and keep the music moving."
+  />
+  <meta name="twitter:image" content="https://shakedownspins.joekirchner.com/landing/app-screen.jpg" />
 </svelte:head>
 
 <svelte:window onkeydown={handleKeydown} />
@@ -3237,7 +3251,7 @@
         <div class="about-brand-mark" aria-hidden="true">
           <img src="/shakedown-spins.png" alt="" />
         </div>
-        <p class="about-version">Version 1.1</p>
+        <p class="about-version">Version v1.11</p>
         <p class="profile-note about-info-block">
           A record collection randomizer. Connect your Discogs account, paste a personal token, or import a CSV — then press Random and let the app decide. Filter by genre and decade, share your stash with friends, and load only the albums you both own.
         </p>

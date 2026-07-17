@@ -1,0 +1,27 @@
+# Shakedown Spins
+
+Shakedown Spins is a web-based record collection randomizer for vinyl collectors.
+
+Primary URL: https://shakedownspins.joekirchner.com/welcome
+Application URL: https://shakedownspins.joekirchner.com/
+GitHub: https://github.com/pelle989/Shakedown-Spins
+Contact: https://joekirchner.com/#contact
+
+## What It Does
+
+- Connects to a signed-in user's Discogs collection through OAuth or a personal token.
+- Imports CSV record collections, including common Discogs export headers.
+- Randomizes albums from Street Feed, My Stash, or Friends Stash.
+- Filters albums by genre and decade.
+- Lets users share stashes with friends and compare matching albums.
+- Supports adding the web app to iOS and Android home screens.
+
+## Privacy Notes
+
+- Private stashes require sign-in and stay private unless shared.
+- Public CSV uploads go to Street Feed.
+- Signed-in sessions can stay active for about 360 days without reauth unless the user signs out, clears cookies, or the session is removed.
+
+## Data Sources
+
+Album notes, facts, and artwork may use Wikipedia, TheAudioDB, Discogs, MusicBrainz / Cover Art Archive, and iTunes. Third-party content belongs to its respective owners.
